@@ -1,132 +1,106 @@
 {
-  "users": [
-    {
-      "id": "924b",
-      "fullName": "Kenneth D. Fazon",
-      "workType": "Agriculture Industry",
-      "email": "kakar@gmail.com",
-      "password": "kakar"
-    },
-    {
-      "id": "ef09",
-      "fullName": " Ricardo Jr. E. Hermogino",
-      "workType": "Fishing Industry",
-      "email": "ricardohermoginojr@gmail.com",
-      "password": "yesyes"
-    },
-    {
-      "id": "2b5f",
-      "fullName": "Mardy Mae Doria",
-      "workType": "Fishing Industry",
-      "email": "badiday@gmail.com",
-      "password": "dagol"
-    },
-    {
-      "id": "f626",
-      "fullName": "Kris Marthy Denso",
-      "workType": "Construction Industry",
-      "email": "krismarthydenso@gmail.com",
-      "password": "sanaol"
-    },
-    {
-      "id": "876f",
-      "fullName": "dagol",
-      "workType": "Fishing Industry",
-      "email": "dagol@gmail.com",
-      "password": "qwerty123"
-    },
-    {
-      "id": "99ab",
-      "fullName": "mart ako",
-      "workType": "Fishing Industry",
-      "email": "mart@gmail.com",
-      "password": "123qwe"
-    }
-  ],
   "tasks": [
     {
-      "id": "d5ba",
-      "taskName": "Mardy Schedule",
-      "streetAddress": "asfafsas",
-      "barangay": "asdfasdgsdg",
-      "city": "asdasd",
-      "municipality": "asdasdasd",
-      "state": "",
-      "postalCode": "asdasd",
-      "date": "2024-09-03",
-      "restrictedWeather": "sunny",
-      "environment": "mountain",
-      "country": "asdasd",
-      "userId": "2b5f"
+      "id": 1,
+      "task": "Harvesting coconuts",
+      "weatherRestrictions": ["Clear", "Partly Cloudy"],
+      "details": "Best done in dry weather to avoid spoilage."
     },
     {
-      "id": "1e5e",
-      "taskName": "Ricar",
-      "streetAddress": "dafsdf",
-      "barangay": "sdfdsf",
-      "city": "asd",
-      "municipality": "sadfdasf",
-      "state": "",
-      "postalCode": "dasd",
-      "date": "2024-08-22",
-      "restrictedWeather": "sunny",
-      "environment": "sea",
-      "country": "asda",
-      "userId": "ef09"
+      "id": 2,
+      "task": "Cleaning coconut trees",
+      "weatherRestrictions": ["Clear", "Partly Cloudy"],
+      "details": "Avoid during heavy rain to prevent slips."
     },
     {
-      "id": "acf7",
-      "taskName": "Hermogino",
-      "streetAddress": "asdas",
-      "barangay": "asd",
-      "city": "asdasd",
-      "municipality": "sdasd",
-      "state": "",
-      "postalCode": "asda",
-      "date": "2024-08-22",
-      "restrictedWeather": "rainy",
-      "environment": "mountain",
-      "country": "sdasd",
-      "userId": "ef09"
+      "id": 3,
+      "task": "Applying fertilizer",
+      "weatherRestrictions": ["Clear", "Light Rain"],
+      "details": "Should be applied before rain for better absorption."
     },
     {
-      "id": "f662",
-      "taskName": "asdas",
-      "streetAddress": "ib",
-      "barangay": "bb",
-      "city": "asdasd",
-      "municipality": "jhb",
-      "state": "",
-      "postalCode": "adasd",
-      "date": "2024-09-05",
-      "restrictedWeather": "other",
-      "environment": "mountain",
-      "country": "asdasd",
-      "userId": "ef09"
+      "id": 4,
+      "task": "Watering coconut plants",
+      "weatherRestrictions": ["Clear", "Partly Cloudy"],
+      "details": "Water early in the morning or late in the afternoon."
     },
     {
-      "id": "fd4b",
-      "taskName": "sefsdf",
-      "streetAddress": "h8h8",
-      "barangay": "ubhbub",
-      "city": "sdfsdfsdf",
-      "municipality": "hbyby",
-      "state": "",
-      "postalCode": "sese",
-      "date": "0172-12-08",
-      "restrictedWeather": "other",
-      "environment": "sea",
-      "country": "sdfsd",
-      "userId": "ef09"
-    }
-  ],
-  "activities": [
+      "id": 5,
+      "task": "Inspecting for pests",
+      "weatherRestrictions": ["Clear", "Cloudy"],
+      "details": "Best done when plants are dry."
+    },
     {
-      "id": "1",
-      "userId": 1,
-      "taskId": 1,
-      "activityType": "scheduled",
-      "timestamp": "2024-08-19T12:00:00Z"
+      "id": 6,
+      "task": "Transplanting coconut seedlings",
+      "weatherRestrictions": ["Clear", "Partly Cloudy"],
+      "details": "Avoid during extreme heat or rain."
+    },
+    {
+      "id": 7,
+      "task": "Weeding around coconut trees",
+      "weatherRestrictions": ["Clear", "Partly Cloudy"],
+      "details": "Weed when the soil is moist for easier removal."
+    },
+    {
+      "id": 8,
+      "task": "Mulching for moisture retention",
+      "weatherRestrictions": ["Clear", "Light Rain"],
+      "details": "Best done before predicted rain."
+    },
+    {
+      "id": 9,
+      "task": "Checking for diseases",
+      "weatherRestrictions": ["Clear", "Partly Cloudy"],
+      "details": "Inspect plants when they are dry to see symptoms clearly."
+    },
+    {
+      "id": 10,
+      "task": "Applying pesticides",
+      "weatherRestrictions": ["Clear"],
+      "details": "Do not apply just before rain."
+    },
+    {
+      "id": 11,
+      "task": "Collecting fallen fruits",
+      "weatherRestrictions": ["Any"],
+      "details": "Can be done anytime."
+    },
+    {
+      "id": 12,
+      "task": "Preparing soil for new plants",
+      "weatherRestrictions": ["Clear", "Partly Cloudy"],
+      "details": "Best done when the soil is dry and crumbly."
+    },
+    {
+      "id": 13,
+      "task": "Setting up irrigation",
+      "weatherRestrictions": ["Clear"],
+      "details": "Avoid when rain is forecasted."
+    },
+    {
+      "id": 14,
+      "task": "Planting cover crops",
+      "weatherRestrictions": ["Clear", "Light Rain"],
+      "details": "Plant during moist conditions for better germination."
+    },
+    {
+      "id": 15,
+      "task": "Training coconut trees",
+      "weatherRestrictions": ["Clear", "Partly Cloudy"],
+      "details": "Ensure good weather for stability."
+    },
+    {
+      "id": 16,
+      "task": "Building support structures",
+      "weatherRestrictions": ["Clear"],
+      "details": "Best done in dry weather for stability."
+    },
+    {
+      "id": 17,
+      "task": "Monitoring growth",
+      "weatherRestrictions": ["Any"],
+      "details": "Can be monitored anytime."
     }
   ]
 }
