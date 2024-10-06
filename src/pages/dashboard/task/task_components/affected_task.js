@@ -68,23 +68,16 @@ const AffectedTask = () => {
 
   return (
     <>
-      <Navbar />
       <CssBaseline />
-      <Container maxWidth="sm">
-        <Grid container spacing={5} style={gradientStyle} justifyContent="center" mb={10}>
-          <IconButton onClick={handleGoBack} sx={{ position: 'absolute', top: 15, left: 20 }}>
-            <ArrowBack />
-          </IconButton>
-          <Grid item xs={12} mt={8}>
-            <Typography variant="h4" align="left"><strong>Task</strong></Typography>
-          </Grid>
 
-          <Grid item xs={12}>
-            <Typography variant="subtitle1" color="error">The following scheduled tasks do not meet the weather conditions. Please reschedule.</Typography>
-          </Grid>
+          
 
           <Grid item xs={12} md={6}>
-            <Typography variant="h6" gutterBottom align="left"><strong> All Affected Task</strong></Typography>
+            <Typography variant="h6" gutterBottom align="left"><strong>Affected Tasks</strong></Typography>
+
+            <Grid item xs={12}>
+            <Typography variant="subtitle1" color="error">The following scheduled tasks do not meet the weather conditions. Consider rescheduling them.</Typography>
+          </Grid>
             <Grid container spacing={2} mt={1}>
               {tasks.AllScheduledTask.map((task, index) => (
                 <Grid item key={task.id} xs={12}>
@@ -107,8 +100,7 @@ const AffectedTask = () => {
               ))}
             </Grid>
           </Grid>
-        </Grid>
-      </Container>
+
 
       <Dialog open={openDialog} onClose={handleEditCancel}>
         <DialogTitle>{editedTask ? 'Edit Task' : 'Confirm Delete'}</DialogTitle>

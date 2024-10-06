@@ -7,7 +7,7 @@ import { ArrowBack, Edit as EditIcon } from '@mui/icons-material';
 import Navbar from '../../../components/navbar';
 import { useRouter } from 'next/router';
 
-const PredefinedList = () => {
+const ScheduleTask = () => {
   const router = useRouter();
   const [tasks, setTasks] = useState([]);
   const [selectedTask, setSelectedTask] = useState('');
@@ -226,4 +226,4 @@ const handleSubmit = async (event) => {
   );
 };
 
-export default PredefinedList;
+export default ScheduleTask;

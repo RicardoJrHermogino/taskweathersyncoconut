@@ -106,21 +106,11 @@ const AllScheduled = () => {
 
   return (
     <>
-      <Navbar />
-      <CssBaseline />
-      <Container maxWidth="sm">
-        <Grid container spacing={5} style={gradientStyle} justifyContent="center" mb={10}>
-          <IconButton onClick={handleGoBack} sx={{ position: 'absolute', top: 15, left: 20 }}>
-            <ArrowBack />
-          </IconButton>
-          <Grid item xs={12} mt={8}>
-            <Typography variant="h4" align="left"><strong>Task</strong></Typography>
+          <Grid item xs={12} mb={4}>
+          <Typography variant="h6" gutterBottom align="left"><strong> Scheduled Tasks</strong></Typography>
           </Grid>
 
-          <Grid item xs={12} md={6}>
-            <Typography variant="h6" gutterBottom align="left"><strong> All Scheduled Task</strong></Typography>
-
-            {/* Search Bar */}
+          <Grid item xs={12} md={12} alignItems={'center'}>
             <Box display="flex" alignItems="center" mb={2}>
               <SearchIcon />
               <InputBase
@@ -160,8 +150,6 @@ const AllScheduled = () => {
                 <AddCircleOutlineOutlinedIcon sx={{ fontSize: '54px' }} />
             </IconButton>
           </Box>
-        </Grid>
-      </Container>
 
       <Dialog open={openDialog} onClose={handleEditCancel}>
         <DialogTitle>{editedTask ? 'Edit Task' : 'Confirm Delete'}</DialogTitle>

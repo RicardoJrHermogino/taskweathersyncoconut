@@ -39,7 +39,7 @@ const locationCoordinates = {
 const MenuProps = {
   PaperProps: {
     style: {
-      maxHeight: 285,
+      maxHeight: 380,
       width: 310,
       borderRadius: 12,
       padding: '20px',
